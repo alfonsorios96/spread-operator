@@ -48,5 +48,6 @@ for(const [key, value] of map){
 
 console.log(map); // 0: Entries
 
+const mult = (...numbers) => numbers.reduce((product, factor) => product * factor, 1);
 
-
+console.log(mult(12,23,5,5,52,234,2342,24));
